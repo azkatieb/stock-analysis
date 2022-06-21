@@ -51,6 +51,10 @@ Sub AllStocksAnalysisRefactored()
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
     'This was removed as looping caused the row iteration loop to restart resulting in compounding tickerVolumes that eventually overloaded the LONG data type.
+
+    For i = 0 to 11
+        tickerVolumes(i) = 0
+    Next i     
     
     ' RAW DATA ASSUMPTIONS:
     'Assumes ticker symbol grouped based on tickers array beginning on line 21. Alphabetical assc.
