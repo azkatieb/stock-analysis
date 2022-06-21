@@ -12,3 +12,7 @@ When analyzing the performance of the stocks in 2017 versus 2018, there is a sig
 
 #### **2018 Results** 
 ![2018 Results](./Resources/VBA_Challenge_2018_Results.png)
+
+### **VBA Code Analysis**
+![Setting Variables](./Resources/VBA_Challenge_Setting%20Variables.png)
+In order to create the analysis tables in Excel to provide to Steve, our client, we started off setting our variables to allow us to later loop through the data in order to find the Total Daily Volume and ultimately the Return %. 
